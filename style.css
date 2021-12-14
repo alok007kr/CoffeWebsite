@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+header .container1{
+    background-image: url('./images/home-img.jpeg');
+    background-size: cover;
+}
+.logo{
+    margin-left: 3rem;
+}
+.navbars{
+    display: flex;
+    align-items: center;
+}
+.navlink ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 18rem;
+}
+.navlink li{
+    justify-content: space-around;
+}
+.navlink li a{
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+.navlink li a:hover{
+    color:grey;
+}
+.navlink{
+    display: flex;
+    justify-content: space-between;
+}
+.navlink img{
+    margin-left: 18rem;
+}
+.text-hero{
+    margin-top: 9rem;
+    color: white;
+    margin-left: 3rem;
+}
+.text-hero p{
+    margin-top: 1rem;
+    color:rgb(128, 128, 128);
+}
+.text-hero button{
+    margin-top: 16.3rem;
+    padding: 0.6rem;
+    color: black;
+    background-color: bisque;
+}
+.second-hero{
+    background-color:black;
+    min-height: 100vh;
+
+}
+.about-us{
+    justify-content:center;
+    color:white;
+    text-align: center;
+    margin-bottom: 6rem;
+
+}
+.about-us span{
+    color:bisque;
+
+}
+.about{
+    display: flex;
+    align-items:center;
+}
+.about-text{
+    color:white;
+    margin-left: 8rem;
+
+}
+.about-text p{
+    color:grey;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+
+}
+.learn-more{
+    background-color:bisque;
+    padding: 0.5rem;
+}
+.about-img{
+    height: 20rem;
+    margin-left: 2rem;
+}
+.menu{
+    background-color:black;
+}
+.menu-position{
+    margin-left: 35rem;
+    color: white;
+}
+.menu-position span{
+    color:burlywood;
+}
+.container3{
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.menu-objects{
+    display: grid;
+    grid: 200px/ auto auto auto;
+    grid-gap: 10px;
+}
+.menu-objects > div{
+    border: 2px solid grey;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+
+}
+.menu-objects h2{
+    margin-top: 1rem;
+}
+.menu-objects button{
+    margin-top:1rem;
+    padding: 0.5rem;
+    background-color:bisque;
+    border-radius: 5px;
+}
+
+
+
